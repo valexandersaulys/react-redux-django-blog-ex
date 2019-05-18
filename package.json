@@ -1,0 +1,38 @@
+{
+  "name": "django-rest-blog",
+  "version": "1.0.0",
+  "description": "This is a playground for building a blog with django's rest framework.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./rest_blog/frontend/src/index.js --output ./rest_blog/frontend/static/frontend/main.js",
+    "prod": "webpack --mode production ./rest_blog/frontend/src/index.js --output ./rest_blog/frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bootstrap": "^4.3.1",
+    "bulma": "^0.7.4",
+    "bulma-react": "0.0.8",
+    "css-loader": "^2.1.1",
+    "cssloader": "^1.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "reactbulma": "^3.0.4",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
